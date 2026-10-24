@@ -1,0 +1,51 @@
+{
+ "sectors": [
+  "Nifty Auto",
+  "Nifty Bank",
+  "Nifty Energy",
+  "Nifty FMCG",
+  "Nifty IT",
+  "Nifty Metal",
+  "Nifty Pharma",
+  "Nifty PSU Bank"
+ ],
+ "series": [
+  "Nifty Auto",
+  "Nifty Bank",
+  "Nifty Energy",
+  "Nifty FMCG",
+  "Nifty IT",
+  "Nifty Metal",
+  "Nifty Pharma",
+  "Nifty PSU Bank",
+  "Nifty 50"
+ ],
+ "benchmark": "Nifty 50",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "tilt": 0.5,
+ "temperature": 3.0,
+ "rebalance_every": 21,
+ "cost_bps": 15,
+ "anchor": "INVVOL",
+ "splits": {
+  "train": [
+   "2014-01-09",
+   "2020-12-31"
+  ],
+  "val": [
+   "2021-01-01",
+   "2022-12-31"
+  ],
+  "test": [
+   "2023-01-01",
+   "2025-12-31"
+  ]
+ },
+ "train_start": "2014-01-09"
+}
